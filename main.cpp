@@ -1,9 +1,11 @@
+//PROGRAMA PARA DETERMINAR SI UN NÚMERO ES PRIMO O NO
+
 #include <iostream>
 
 bool primo(unsigned int numero);
 using namespace std;
 
-
+//PRINCIPAL
 int main()
 {
 	unsigned int numero;
@@ -13,7 +15,7 @@ int main()
 	return 0;
 }
 
-
+//FUNCIONES
 bool primo(unsigned int numero)
 {
 
